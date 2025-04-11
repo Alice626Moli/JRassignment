@@ -50,6 +50,18 @@
 
 }
 
+@media(max-width:768px){
+    .leftbar{
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .mainbody{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 .leftbar h3{
@@ -117,6 +129,20 @@
     background-image: url(/AS2/images/rightbackgroundimage.jpg);
     opacity: 0.12;
 }
+
+
+@media(max-width:768px){
+    .rightbar{
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .mainbody{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 .rightbar h3{
     font: normal bold 24px Arial;
