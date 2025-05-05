@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        这里是ES6 Assignment01
+    </div>
+    
+
+
+    <script>
+
+
+// 作业1. Let, Const 和 Var
+
+// 任务: 将以下代码重写为使用 let 和 const 代替 var。解释为什么在每种情况下 let 或 const 更合适。
+
+//sample:
+// var name = "Alice";
+// if (true) {
+//     var name = "Bob";
+//     console.log(name); // 输出：Bob
+// }
+// console.log(name); // 输出：Bob
+
+
+//assignment:
+
+
+
+const name = "Alice";
+if(true){
+    const name = "Bob"
+    console.log(name);  // 因为var是全局作用域，因此if条件式里的var name = Bob会把外层的name覆盖，因此要改成const，保证作用域限制在条件式里。
+}
+
+
+console.log(name);  //输出Alice
+
+    </script>
+
+
+
+</body>
+</html>
+
+
+
